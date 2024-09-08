@@ -1,0 +1,113 @@
+h1 {
+  color: #fff;
+  background-color: #2196F3; /* Modification de la couleur de fond */
+  padding: 8px;
+
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px #888888; /* Ajout de l'ombre */
+  text-align: center; /* Centrer le texte */
+  margin-bottom: 20px; /* Ajouter de la marge en bas */
+}
+
+.form {
+  margin-top: 50px;
+  border: 1px solid #2196F3; /* Ajout de la bordure */
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px #888888; /* Ajout de l'ombre */
+  width: 80%; /* Définir une largeur */
+  margin: 0 auto; /* Centrer le formulaire */
+  position: relative;
+  top: 118px;
+
+}
+
+label {
+  color: #2196F3; /* Modification de la couleur */
+  font-size: 18px; /* Augmenter la taille de police */
+}
+
+input[type="text"] {
+  width: 100%; /* Définir une largeur à 100% */
+  padding: 10px;
+  margin-bottom: 20px; /* Ajouter de la marge en bas */
+  border: 1px solid #ccc; /* Définir une bordure */
+  border-radius: 5px;
+  font-size: 16px; /* Définir une taille de police */
+}
+
+
+button{
+  box-shadow: 0 0 5px cyan;
+
+}
+button:hover{
+  box-shadow: 0 0 5px rgb(0, 17, 255),
+  0 0 25px cyan,0 0 50px rgb(0, 17, 255),
+  0 0 100px cyan,0 0 200px rgb(0, 17, 255);
+}
+
+
+select option {
+  background-color: #fff;
+  color: #000;
+  font-size: 16px;
+}
+label:focus {
+  color: #0D47A1;
+}
+
+input:focus {
+  border-color: #0D47A1;
+  box-shadow: 0 0 5px #0D47A1;
+}
+
+body{
+  background-color: #10101E;
+}
+
+.datetime{
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  font-family: "Segoe UI",sans-serif;
+
+/* -webkit-box-reflect: below 1px -linear-gradient(transparant,rgb(255,255,255,0.1)) */
+transition: 0.5s;
+transition-property: background , box-shadow;
+
+}
+
+
+.date{
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 3px;
+
+  position:absolute;
+}
+.time{
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.time span:not(:last-child){
+  position: relative;
+  margin: 0 6px;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 3px;
+}
+.time span:last-child{
+  background: #2E94E3;
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: 10px;
+  padding: 0 5px;
+  border-radius: 3px;
+
+}
